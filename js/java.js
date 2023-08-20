@@ -15,16 +15,19 @@ document.getElementById("kitchen-first").addEventListener("click",function(){
     const make=document.getElementById("make-purchase");
     if(addingTotalTk > 0){   
         make.removeAttribute("disabled");
+        make.style.backgroundColor="#E527B2";
     }else{
         make.setAttribute("disabled","true");
+        
     }
 
     //=====apply button==========
     const apply=document.getElementById("apply");
     if(addingTotalTk>200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
+        apply.style.backgroundColor="#E527B2";
     }else{
-        apply.setAttribute("disabled",true)
+        apply.setAttribute("disabled",true);
     }
 
   
@@ -46,8 +49,8 @@ document.getElementById("kitchen-second").addEventListener("click",function(){
     //=====make purchase button=======
     const make=document.getElementById("make-purchase");
     if(addingTotalSecondTk > 0){
-        const make=document.getElementById("make-purchase");
         make.removeAttribute("disabled");
+        make.style.backgroundColor="#E527B2"
     }else{
         make.setAttribute("disabled","true")
     }
@@ -56,7 +59,8 @@ document.getElementById("kitchen-second").addEventListener("click",function(){
     //=====apply button==========
     const apply=document.getElementById("apply");
     if(addingTotalSecondTk >200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
+        apply.style.backgroundColor="#E527B2";
     }else{
         apply.setAttribute("disabled",true)
     }
@@ -77,8 +81,8 @@ document.getElementById("kitchen-third").addEventListener("click",function(){
     //=====make purchase button=======
     const make=document.getElementById("make-purchase");
     if(addingTotalThirdTk > 0){
-        const make=document.getElementById("make-purchase");
         make.removeAttribute("disabled");
+        make.style.backgroundColor="#E527B2"
     }else{
         make.setAttribute("disabled","true")
     }
@@ -87,7 +91,8 @@ document.getElementById("kitchen-third").addEventListener("click",function(){
     //=====apply button==========
     const apply=document.getElementById("apply");
     if(addingTotalThirdTk >200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
+        apply.style.backgroundColor="#E527B2";
     }else{
         apply.setAttribute("disabled",true)
     }
@@ -110,8 +115,9 @@ document.getElementById("sportswear-first").addEventListener("click",function(){
     //=====make purchase button=======
     const make=document.getElementById("make-purchase");
     if(addingTotalSportFirstTk > 0){
-        const make=document.getElementById("make-purchase");
         make.removeAttribute("disabled");
+        make.style.backgroundColor="#E527B2";
+
     }else{
         make.setAttribute("disabled","true")
     }
@@ -120,9 +126,10 @@ document.getElementById("sportswear-first").addEventListener("click",function(){
     //=====apply button==========
     const apply=document.getElementById("apply");
     if(addingTotalSportFirstTk >200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
+        apply.style.backgroundColor="#E527B2";
     }else{
-        apply.setAttribute("disabled",true)
+        apply.setAttribute("disabled",true);
     }
 })
 
@@ -141,8 +148,8 @@ document.getElementById("sportswear-second").addEventListener("click",function()
     //=====make purchase button=======
     const make=document.getElementById("make-purchase");
     if(addingTotalSportSecondTk > 0){
-        const make=document.getElementById("make-purchase");
         make.removeAttribute("disabled");
+        make.style.backgroundColor="#E527B2";
     }else{
         make.setAttribute("disabled","true")
     }
@@ -150,9 +157,10 @@ document.getElementById("sportswear-second").addEventListener("click",function()
     //=====apply button==========
     const apply=document.getElementById("apply");
     if(addingTotalSportSecondTk >200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
+        apply.style.backgroundColor="#E527B2";
     }else{
-        apply.setAttribute("disabled",true)
+        apply.setAttribute("disabled",true);
     }
 
     
@@ -172,8 +180,8 @@ document.getElementById("sportswear-third").addEventListener("click",function(){
     //=====make purchase button=======
     const make=document.getElementById("make-purchase");
     if(addingTotalSportThirdTk > 0){
-        const make=document.getElementById("make-purchase");
         make.removeAttribute("disabled");
+        make.style.backgroundColor="#E527B2";
     }else{
         make.setAttribute("disabled","true")
     }
@@ -181,35 +189,17 @@ document.getElementById("sportswear-third").addEventListener("click",function(){
     //=====apply button==========
     const apply=document.getElementById("apply");
     if(addingTotalSportThirdTk >200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
+        apply.style.backgroundColor="#E527B2";
     }else{
-        apply.setAttribute("disabled",true)
+        apply.setAttribute("disabled",true);
     }
     
 
 })
 
 // //=======================Apply button ==============================================
-// document.getElementById("input-field").addEventListener("keyup",function(event){
-// const text=event.target.value;
-// if(text === "SELL200"){
-//     const totalPrice=utilitiesElement("total-price");
-//     const discount=(totalPrice*20)/100;
-// }
-// return discount;
 
-// })
-// document.getElementById("input-field").addEventListener("keyup",function(event){
-//     const text=event.target.value;
-//     if(text === "SELL200"){
-//         const totalPrice=utilitiesElement("total-price");
-//         const discount=(totalPrice*20)/100;
-        
-//     }else{
-//         alert ("its not currenct coad")
-//     }
-    
-//     })
 document.getElementById("apply").addEventListener("click",function(){
     const totalPrice=utilitiesElement("total-price");
 
@@ -244,15 +234,17 @@ document.getElementById("apply").addEventListener("click",function(){
         make.removeAttribute("disabled");
       
         }else{
-        make.setAttribute("disabled",true)
+        make.setAttribute("disabled",true);
+        make.style.backgroundColor="gray"
         }
 
         //=====apply button==========
          const apply=document.getElementById("apply");
          if(totalPrice >200){
-        apply.removeAttribute("disabled")
+        apply.removeAttribute("disabled");
         }else{
-        apply.setAttribute("disabled","true")
+        apply.setAttribute("disabled",true);
+        apply.style.backgroundColor="gray";    
     }
 
     setElementById ("discount",0);
