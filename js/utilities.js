@@ -10,6 +10,7 @@ function setElementById(element,elementValue){
     elementById.innerText=elementValue;
 }
 
+
 function addCalculationShowArea(productName){
     const calculationShowArea=document.getElementById("calculation-show-area");
     const count=calculationShowArea.childElementCount;
