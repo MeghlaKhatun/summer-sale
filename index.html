@@ -56,7 +56,7 @@
 
                 <!-- kitchenware first card -->
                 
-                <div class="card bg-white p-5 rounded-lg drop-shadow-md" onclick="my_modal_1.showModal()">
+                <div class="card bg-white p-5 rounded-lg drop-shadow-md" id="kitchen-first">
                     
                     <div class="  bg-[#1111110D] rounded-lg px-[70px] h-[200px] flex justify-center items-center">
                         <img src="images/prod1.png" class="" alt="Shoes" class="rounded-xl" />
@@ -69,32 +69,17 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
                             
                           </div>
+
                           <h2 class="text-[#111111] text-xl font-semibold py-2 text-center">K. Accessories</h2>
-                          <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]">39.00 TK</h2>
+                          <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]"> <span id="first-kitchen-tk">39.00</span>Tk</h2>
                     
-                <!-- Open the modal using ID.showModal() method -->
-           
-                <dialog id="my_modal_1" class="modal ">
-                <form method="dialog" class="modal-box ">
-                    <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
-                        <img  src="images/congo.png" alt="">
-                    </div>
-
-                    <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
-                    <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
-
-                    <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
-                    </div>
-                </form>
-                </dialog>
+                
 
             </div>
 
               <!-- kitchenware second card -->
                 
-              <div class="card bg-white p-5 rounded-lg drop-shadow-md" onclick="my_modal_2.showModal()">
+              <div class="card bg-white p-5 rounded-lg drop-shadow-md" id="kitchen-second" >
                     
                 <div class="bg-[#1111110D] rounded-lg px-[70px] h-[200px] flex justify-center items-center">
                     <img src="images/prod2.png" alt="Shoes" class="rounded-xl" />
@@ -108,31 +93,15 @@
                         
                       </div>
                       <h2 class="text-[#111111] text-xl font-semibold py-2 text-center">k.Implement</h2>
-                      <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]">25.00 TK</h2>
+                      <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]"> <span id="second-kitchen-tk">25.00</span> TK</h2>
                 
-            <!-- Open the modal using ID.showModal() method -->
-       
-            <dialog id="my_modal_2" class="modal ">
-                <form method="dialog" class="modal-box ">
-                    <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
-                        <img  src="images/congo.png" alt="">
-                    </div>
-
-                    <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
-                    <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
-
-                    <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
-                    </div>
-                </form>
-                </dialog>
+           
 
         </div>
 
            <!-- kitchenware third card -->
                 
-           <div class="card bg-white p-5 rounded-lg drop-shadow-md" onclick="my_modal_3.showModal()">
+           <div class="card bg-white p-5 rounded-lg drop-shadow-md" id="kitchen-third" >
                     
             <div class="bg-[#1111110D] rounded-lg px-[70px] h-[200px] flex justify-center items-center">
                 <img src="images/prod3.png" alt="Shoes" class="rounded-xl" />
@@ -146,25 +115,9 @@
                     
                   </div>
                   <h2 class="text-[#111111] text-xl font-semibold py-2 text-center">Home Cooker</h2>
-                  <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]">49.00 TK</h2>
+                  <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]"><span id="third-kitchen-tk">49.00</span> TK</h2>
             
-        <!-- Open the modal using ID.showModal() method -->
-   
-        <dialog id="my_modal_3" class="modal ">
-            <form method="dialog" class="modal-box ">
-                <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
-                    <img  src="images/congo.png" alt="">
-                </div>
-
-                <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
-                <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
-
-                <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
-                <!-- if there is a button in form, it will close the modal -->
-                <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
-                </div>
-            </form>
-            </dialog>
+      
 
     </div>
 
@@ -182,7 +135,7 @@
 
             <!-- Sportswear first card -->
             
-            <div class="card bg-white p-5 rounded-lg drop-shadow-md" onclick="my_modal_4.showModal()">
+            <div class="card bg-white p-5 rounded-lg drop-shadow-md" >
                 
                 <div class="  bg-[#1111110D] rounded-lg px-[70px] h-[200px] flex justify-center items-center">
                     <img src="images/prod4.png" alt="Shoes" class="rounded-xl" />
@@ -198,29 +151,13 @@
                       <h2 class="text-[#111111] text-xl font-semibold py-2 text-center">Sports Back Cap</h2>
                       <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]">49.00 TK</h2>
                 
-            <!-- Open the modal using ID.showModal() method -->
-       
-            <dialog id="my_modal_4" class="modal ">
-                <form method="dialog" class="modal-box ">
-                    <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
-                        <img  src="images/congo.png" alt="">
-                    </div>
-    
-                    <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
-                    <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
-    
-                    <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
-                    </div>
-                </form>
-                </dialog>
+        
     
         </div>
 
           <!-- Sportswear second card -->
             
-          <div class="card bg-white p-5 rounded-lg drop-shadow-md" onclick="my_modal_5.showModal()">
+          <div class="card bg-white p-5 rounded-lg drop-shadow-md">
                 
             <div class="  bg-[#1111110D] rounded-lg px-[70px] h-[200px] flex justify-center items-center">
                 <img src="images/prod5.png" alt="Shoes" class="rounded-xl" />
@@ -236,29 +173,12 @@
                   <h2 class="text-[#111111] text-xl font-semibold py-2 text-center">Full Jersey Set</h2>
                   <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]">69.00 TK</h2>
             
-        <!-- Open the modal using ID.showModal() method -->
-   
-        <dialog id="my_modal_5" class="modal ">
-            <form method="dialog" class="modal-box ">
-                <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
-                    <img  src="images/congo.png" alt="">
-                </div>
-
-                <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
-                <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
-
-                <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
-                <!-- if there is a button in form, it will close the modal -->
-                <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
-                </div>
-            </form>
-            </dialog>
 
     </div>
 
        <!-- Sportswear third card -->
             
-       <div class="card bg-white p-5 rounded-lg drop-shadow-md" onclick="my_modal_6.showModal()">
+       <div class="card bg-white p-5 rounded-lg drop-shadow-md" >
                 
         <div class="bg-[#1111110D] rounded-lg px-[70px] h-[200px] flex justify-center items-center">
             <img src="images/prod6.png" alt="Shoes" class="rounded-xl" />
@@ -274,23 +194,6 @@
               <h2 class="text-[#111111] text-xl font-semibold py-2 text-center">Sports cates</h2>
               <h2 class="text-[#11111180] text-xl font-normal text-center pb-[22px]">159.00 TK</h2>
         
-    <!-- Open the modal using ID.showModal() method -->
-
-    <dialog id="my_modal_6" class="modal ">
-        <form method="dialog" class="modal-box ">
-            <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
-                <img  src="images/congo.png" alt="">
-            </div>
-
-            <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
-            <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
-
-            <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
-            <!-- if there is a button in form, it will close the modal -->
-            <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
-            </div>
-        </form>
-        </dialog>
 
 </div>
 
@@ -318,13 +221,34 @@
 
 
                 <div class="rounded-lg drop-shadow-md  lg:p-6 bg-white mt-6 px-9 ">
+                    <div id="calculation-show-area">
+
+                    </div>
+
                     <div class="border-b-2 border-[#11111126] mt-6 mb-6"></div>
-                    <h2 class="text-xl md:text-2xl font-medium text-[#111111]">Total price: <span class="text-[#11111180]">0 TK</span></h2>
-                    <h2 class="text-xl md:text-2xl font-medium text-[#111111] mt-4 mb-4">Discount: <span class="text-[#11111180]">0 TK</span></h2>
-                    <h2 class="text-xl md:text-2xl font-medium text-[#111111]">Total: <span class="text-[#11111180]">0 TK</span></h2>
+                    <h2 class="text-xl md:text-2xl font-medium text-[#111111]">Total price: <span class="text-[#11111180]" id="total-price">0</span> <span class="text-[#11111180]">TK</span></h2>
+                    <h2 class="text-xl md:text-2xl font-medium text-[#111111] mt-4 mb-4">Discount: <span class="text-[#11111180]" id="discount">0</span> <span class="text-[#11111180]">TK</span></h2>
+                    <h2 class="text-xl md:text-2xl font-medium text-[#111111]">Total: <span class="text-[#11111180]" id="total">0</span> <span class="text-[#11111180]"> TK</span></h2>
                     <div class="border-b-2 border-[#11111126] mt-6 mb-6"></div>
+
+
                     <div class="flex justify-center ">
-                        <button class="text-white text-[16px] md:text-xl mt-6 lg:mt-0  font-semibold bg-[#E527B2] rounded-lg py-4 px-[60px] mb-8 lg:absolute ">Make Purchase</button>
+                        <button class="text-white text-[16px] md:text-xl mt-6 lg:mt-0  font-semibold bg-[#E527B2] rounded-lg py-4 px-[60px] mb-8 lg:absolute " onclick="my_modal_10.showModal()">Make Purchase</button>
+                        <dialog id="my_modal_10" class="modal ">
+                            <form method="dialog" class="modal-box ">
+                                <div class="flex justify-center md:mt-[50px] lg:mt-[80px]">
+                                    <img  src="images/congo.png" alt="">
+                                </div>
+            
+                                <h1 class="text-3xl md:text-4xl lg:5xl font-semibold lg:font-bold text-[#111111] text-center pt-[40px]">Congratulations</h1>
+                                <p class="text-xl font-normal text-[#11111180] text-center pt-4 pb-5 md:pb-7 lg:pb-[40px]">Your Purchase the product</p>
+            
+                                <div class="modal-action flex justify-center mb-6 md:mb-[50px] lg:mb-[80px]">
+                                <!-- if there is a button in form, it will close the modal -->
+                                <button class="outline-none text-xl text-white font-semibold rounded-lg bg-[#E527B2] py-4 px-[45px]">Go Home</button>
+                                </div>
+                            </form>
+                            </dialog>
                     </div>
                 </div>
                 
@@ -336,6 +260,7 @@
     </section>
 
 
-    
+    <script src="js/utilities.js"></script>
+    <script src="js/java.js"></script>
 </body>
 </html>
