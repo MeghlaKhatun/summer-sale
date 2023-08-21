@@ -207,9 +207,9 @@ document.getElementById("apply").addEventListener("click",function(){
         const inputValue=inputField.value;
         inputField.value=""
         if(inputValue === "SELL200"){
-           setElementById ("discount",totalPrice*20/100);
+           setElementById ("discount",(totalPrice*20/100).toFixed(2));
            
-           setElementById("total",totalPrice-(totalPrice*20/100))
+           setElementById("total",(totalPrice-(totalPrice*20/100)).toFixed(2))
            
         }else{
             alert ( "Its not correct code")
