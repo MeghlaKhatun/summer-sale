@@ -23,7 +23,7 @@ document.getElementById("kitchen-first").addEventListener("click",function(){
 
     //=====apply button==========
     const apply=document.getElementById("apply");
-    if(addingTotalTk>200){
+    if(addingTotalTk >=200){
         apply.removeAttribute("disabled");
         apply.style.backgroundColor="#E527B2";
     }else{
@@ -58,7 +58,7 @@ document.getElementById("kitchen-second").addEventListener("click",function(){
 
     //=====apply button==========
     const apply=document.getElementById("apply");
-    if(addingTotalSecondTk >200){
+    if(addingTotalSecondTk >=200){
         apply.removeAttribute("disabled");
         apply.style.backgroundColor="#E527B2";
     }else{
@@ -90,7 +90,7 @@ document.getElementById("kitchen-third").addEventListener("click",function(){
 
     //=====apply button==========
     const apply=document.getElementById("apply");
-    if(addingTotalThirdTk >200){
+    if(addingTotalThirdTk >=200){
         apply.removeAttribute("disabled");
         apply.style.backgroundColor="#E527B2";
     }else{
@@ -125,7 +125,7 @@ document.getElementById("sportswear-first").addEventListener("click",function(){
 
     //=====apply button==========
     const apply=document.getElementById("apply");
-    if(addingTotalSportFirstTk >200){
+    if(addingTotalSportFirstTk >=200){
         apply.removeAttribute("disabled");
         apply.style.backgroundColor="#E527B2";
     }else{
@@ -156,7 +156,7 @@ document.getElementById("sportswear-second").addEventListener("click",function()
 
     //=====apply button==========
     const apply=document.getElementById("apply");
-    if(addingTotalSportSecondTk >200){
+    if(addingTotalSportSecondTk >=200){
         apply.removeAttribute("disabled");
         apply.style.backgroundColor="#E527B2";
     }else{
@@ -188,7 +188,7 @@ document.getElementById("sportswear-third").addEventListener("click",function(){
 
     //=====apply button==========
     const apply=document.getElementById("apply");
-    if(addingTotalSportThirdTk >200){
+    if(addingTotalSportThirdTk >=200){
         apply.removeAttribute("disabled");
         apply.style.backgroundColor="#E527B2";
     }else{
